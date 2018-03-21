@@ -14,9 +14,9 @@ require "pry"
 def speak_to_grandma(phrase)
   if phrase == phrase.upcase
     puts "I LOVE YOU TOO PUMPKIN!"
-  elsif condition
-    puts ""
-  else phrase.upcase == false
-    puts "HUH?! SPEAK UP, SONNY!"
+  # elsif condition
+  #   puts ""
+  # else phrase.upcase == false
+  #   puts "HUH?! SPEAK UP, SONNY!"
   end
 end
