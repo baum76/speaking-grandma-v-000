@@ -13,9 +13,5 @@
 def speak_to_grandma(phrase = input.chomp)
   if "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
-  elsif condition
-    puts ""
-  else phrase.upcase == false
-    puts "HUH?! SPEAK UP, SONNY!"
   end
 end
