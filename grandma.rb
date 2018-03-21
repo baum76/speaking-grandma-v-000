@@ -10,8 +10,14 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-def speak_to_grandma(phrase = input.chomp)
-  if "I LOVE YOU GRANDMA!"
+require "pry"
+def speak_to_grandma(phrase)
+  binding.pry
+  if phrase == phrase.upcase
     puts "I LOVE YOU TOO PUMPKIN!"
+  elsif condition
+    puts ""
+  else phrase.upcase == false
+    puts "HUH?! SPEAK UP, SONNY!"
   end
 end
