@@ -12,7 +12,6 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 require "pry"
 def speak_to_grandma(phrase)
-  binding.pry
   if phrase == phrase.upcase
     puts "I LOVE YOU TOO PUMPKIN!"
   elsif condition
